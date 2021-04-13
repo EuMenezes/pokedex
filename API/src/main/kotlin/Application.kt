@@ -5,7 +5,7 @@ import io.ktor.routing.*
 import io.ktor.serialization.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import route.pokemonRouting
+import route.pokemonExemplo
 
 fun main() {
     embeddedServer(Netty, port = 8080) {
@@ -25,6 +25,6 @@ fun main() {
 
 fun Application.registerCustomerRoutes() {
     routing {
-        pokemonRouting()
+        pokemonExemplo()
     }
 }

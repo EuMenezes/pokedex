@@ -20,7 +20,7 @@ ext.logback_version = '1.2.3'
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0")
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.1.0"
 
     implementation "io.ktor:ktor-server-core:$ktor_version"
     implementation "io.ktor:ktor-server-netty:$ktor_version"
